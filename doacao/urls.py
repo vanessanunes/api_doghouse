@@ -6,7 +6,7 @@ from rest_framework import routers
 from doghouse.api.viewsets import AnimalViewSet
 
 routers = routers.DefaultRouter()
-routers.register(r'animal', AnimalViewSet, base_name='Animal')
+routers.register(r'animal', AnimalViewSet, basename='Animal')
 
 urlpatterns = [
     path('', include(routers.urls)),
