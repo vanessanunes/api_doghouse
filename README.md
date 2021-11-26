@@ -36,27 +36,44 @@ Importante incluir o nome e a senha do usuário.
 ### para adicionar, POST
 
 adotado - Adotado (boolean) ex: false
+
 nome - Nome (string) ex: caramelo
+
 descricao - Descrição (string) ex: Cachorro muito adoravél
+
 raca - Raça (string) ex: SRD
+
 cor_pelos - Cor dos Pelos (string) ex: Caramelo
+
 cor_olhos - Cor dos Olhos (string) ex: Castanhos
+
 tipo_pelagem - Tipo de Pelagem (string) ex: Curto
+
 data_nascimento - Data de Nascimento (Date) ex: 2021-09-26
+
 data-resgate - Data de Resgate (Date) ex: 2021-11-26
+
 foto - Foto ex: 
 
 
-exemplo:
+#### exemplo:
 
 adotado:false
+
 nome:Caramelo
+
 descricao:O Caramelo é um doguinho caramelo muito simpátio!
+
 raca:SRD
+
 cor_pelos:Caramelo
+
 cor_olhos:Castanhos
+
 tipo_pelagem:Curta
+
 data_nascimento:2021-01-08
+
 data_resgate:2021-11-26
 
 
